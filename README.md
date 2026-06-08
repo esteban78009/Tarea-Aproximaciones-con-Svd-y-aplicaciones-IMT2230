@@ -11,7 +11,7 @@ En este mini proyecto se hizo uso de SVD para descomponer todas las imagenes de 
 Para esto expresamos la matriz relacionada a todos las imagenes, de tal forma que tenemos una matriz: $$A ^ {70000 \times 784} $$
 
 Usando esta matriz le aplicaremos SVD a su matriz centrada , es decir:
-$$ \tilde{X} = X - \mathbf{1}\bar{x}^\top, \text{ donde } \bar{x} = \frac{1}{n}X^\top\mathbf{1} $$
+$$\tilde{X} = X - \mathbf{1}\bar{x}^\top, \text{ donde } \bar{x} = \frac{1}{n}X^\top\mathbf{1}$$
 
 
 ## Ejecucion
