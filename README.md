@@ -8,7 +8,7 @@ Repositorio de la Seccion 2 de la tarea 2 de IMT2230
 Fashion-MNIST es un dataset publico conocido por tener 70000 imagenes de diversas prendas en blanco y negro , esto con objetivos como ser usado en modelos clasificatorios o por redes neuronales, o sensillamete para ser usado como practica en casos de manipulacion numerica, como es nuestro caso
 En este mini proyecto se hizo uso de SVD para descomponer todas las imagenes de este set en funcion de sus "Eige ropás" es decir, usar tecnicas de algebra lineal para poder descomponer imagenes en fragmentos de datos mas pequeños, de tal forma que podamos expresar estas mismas en relacion a unos pocos vectores
 
-Para esto expresamos la matriz relacionada a todos las imagenes, de tal forma que tenemos una matriz: $$A ^ {70000 \times 784} $$
+Para esto expresamos la matriz relacionada a todos las imagenes, de tal forma que tenemos una matriz: $$A ^ {70000 \times 784}$$
 
 Usando esta matriz le aplicaremos SVD a su matriz centrada , es decir:
 $$\tilde{X} = X - \mathbf{1}\bar{x}^\top, \text{ donde } \bar{x} = \frac{1}{n}X^\top\mathbf{1}$$
