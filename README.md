@@ -33,7 +33,7 @@ para analizar esto mismo usaremos la siguiente formula:
 
 $$\hat{x}_k = \bar{x} + \sum_{i=1}^{k} z_i v_i, \qquad z_i = \tilde{x}^\top v_i$$
 
-Tal que $ \hat{x}_k $ es la aproximacion de k vectores singulares de cada vector original , $ \bar{x}$ es el vector "central" nacido de la media de todos los vectores , $z_i$ representa el "peso" de cada vector , es decir, cuanto de la imagen original representa cada componente $v_i$ es el vector singular asocido,es decir, nuestra "eigen ropa", tal que podemos notar que la suma de todas las "eigen ropas" son Exactamente lo mismo al vector original que buscamos recomponer
+Tal que $\hat{x}_k$ es la aproximacion de k vectores singulares de cada vector original , $\bar{x}$ es el vector "central" nacido de la media de todos los vectores , $z_i$ representa el "peso" de cada vector , es decir, cuanto de la imagen original representa cada componente $v_i$ es el vector singular asocido,es decir, nuestra "eigen ropa", tal que podemos notar que la suma de todas las "eigen ropas" son Exactamente lo mismo al vector original que buscamos recomponer
 
 ![alt text](https://github.com/esteban78009/Tarea-Aproximaciones-con-Svd-y-aplicaciones-IMT2230/blob/d170b840f2b020d959aa09cce4f94f7245592a4f/graficos/image-3.png)
 
